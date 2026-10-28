@@ -1,0 +1,7 @@
+pip install djangorestframework
+pip install djangorestframework-simplejwt
+django-admin startproject <PROJECT_NAME>
+python manage.py startapp <APP_NAME>
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
